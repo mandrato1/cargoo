@@ -192,6 +192,42 @@ hr.small {
     -o-background-size: cover;
 }
 
+.road {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/road.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.building {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/building.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.truck {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/truck.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 /* Portfolio */
 
 .portfolio {
