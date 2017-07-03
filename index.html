@@ -58,7 +58,13 @@
 			      </ul>
 			      <ul class="nav navbar-nav navbar-right">
 			        <li><a href="login.html">Ingresar</a></li>
-			        <li><a href="login.html?register=true">Registrar Usuario</a></li>
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registrar Usuario<span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="register.html?type=cargo">Generador de carga</a></li>
+			            <li><a href="register.html?type=transport">Transportista</a></li>
+			          </ul>
+			        </li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			    </div>
@@ -69,7 +75,7 @@
     <header id="top" class="header">
         <div class="text-vertical-center">
         	<img src="img/logo2.png" width="400">
-            <h3>La mejor forma de transportar en Chile y Latinoamérica</h3>
+            <h3>La mejor forma de transportar en Chile y Sudamérica</h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">¿Cómo funciona?</a>
         </div>
